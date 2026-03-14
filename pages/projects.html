@@ -1,0 +1,117 @@
+<!-- pages/projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects · Justine Ace Santos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">ace<span>.</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="projects.html" class="active">projects</a></li>
+                    <li><a href="education.html">education</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main style="padding: 2rem 0 4rem;">
+        <div class="container">
+            <h1 style="font-size: 2.8rem; margin-bottom: 0.5rem;">projects</h1>
+            <p style="color: var(--text-light); font-size: 1.2rem; margin-bottom: 2.5rem; max-width: 700px;">
+                a selection of academic and personal work — more on GitHub.
+            </p>
+
+            <!-- GitHub spotlight card -->
+            <a href="https://github.com/jassantos" target="_blank" style="text-decoration: none; display: block; margin-bottom: 3rem;">
+                <div style="background: linear-gradient(135deg, #0d1117 0%, #1a1e24 100%); color: white; padding: 2rem; border-radius: 2rem; display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; box-shadow: var(--shadow); border: 1px solid #2d333b;">
+                    <div style="background: #2d333b; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
+                        <i class="fab fa-github" style="font-size: 2.8rem; color: white;"></i>
+                    </div>
+                    <div style="flex: 1;">
+                        <h2 style="font-size: 1.8rem; margin-bottom: 0.2rem; color: white;">view my GitHub</h2>
+                        <p style="color: #8b949e; margin: 0;">github.com/jassantos — all code, active repos & contributions</p>
+                    </div>
+                    <i class="fas fa-arrow-right" style="font-size: 1.8rem; color: var(--accent);"></i>
+                </div>
+            </a>
+
+            <h2 style="font-weight: 600; margin-bottom: 1.5rem; font-size: 1.8rem;">featured projects</h2>
+            <div style="display: grid; gap: 1.8rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));">
+                <!-- project cards with fixed icons -->
+                <div style="background: white; padding: 2rem; border-radius: 2rem; border:1px solid var(--border);">
+                    <i class="fas fa-map" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem; background: var(--accent-light); padding: 0.6rem; border-radius: 18px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Python GIS Automation</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Automated data integration, spatial analysis, and satellite imagery processing.</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;"><i class="fas fa-code"></i> Python, GDAL, QGIS</span>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 2rem; border:1px solid var(--border);">
+                    <i class="fas fa-database" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem; background: var(--accent-light); padding: 0.6rem; border-radius: 18px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Database Management (SQL)</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Spatial database creation, optimization, reporting (PostgreSQL, PostGIS, pgAdmin).</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;"><i class="fas fa-code"></i> SQL, PostgreSQL, Oracle</span>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 2rem; border:1px solid var(--border);">
+                    <i class="fas fa-laptop-code" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem; background: var(--accent-light); padding: 0.6rem; border-radius: 18px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Full-Stack Application</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Web/mobile app with user authentication, data visualization (coursework).</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;"><i class="fas fa-code"></i> JavaScript, Dart, Firebase</span>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 2rem; border:1px solid var(--border);">
+                    <i class="fas fa-users" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem; background: var(--accent-light); padding: 0.6rem; border-radius: 18px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Collaborative Agile Project</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Version control, peer reviews, sprint planning in a team environment.</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;"><i class="fas fa-code"></i> Git, JIRA, Confluence</span>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 2rem; border:1px solid var(--border);">
+                    <i class="fas fa-sun" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem; background: var(--accent-light); padding: 0.6rem; border-radius: 18px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Solar Energy Potential Mapping</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">GIS, remote sensing, Python automation for solar analysis (UP research).</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;"><i class="fas fa-code"></i> Python, ArcGIS, GEE</span>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 2rem; border:1px solid var(--border);">
+                    <i class="fas fa-cloud" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem; background: var(--accent-light); padding: 0.6rem; border-radius: 18px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Web Scraping for Energy Data</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem;">Python-based scraping workflows for oil & gas industry (freelance).</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;"><i class="fas fa-code"></i> Python, BeautifulSoup, APIs</span>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--accent-light); border-radius: 3rem;">
+                <p style="font-size: 1.2rem; margin-bottom: 0.8rem;">📌 all source code & more projects on GitHub</p>
+                <a href="https://github.com/jassantos" target="_blank" style="display: inline-flex; align-items: center; gap: 0.6rem; background: var(--text); color: white; padding: 0.7rem 2rem; border-radius: 40px; text-decoration: none; font-weight: 600;">jassantos <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Justine Ace Santos</p>
+            <div class="social-links">
+                <a href="https://github.com/jassantos" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/justine-ace-santos/" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="x"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

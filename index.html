@@ -1,37 +1,91 @@
+<!-- index.html (home) -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Ace Santos Portfolio</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine Ace Santos · portfolio</title>
+    <!-- modern clean fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <!-- minimalist navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">ace<span>.</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">home</a></li>
+                    <li><a href="pages/about.html">about</a></li>
+                    <li><a href="pages/projects.html">projects</a></li>
+                    <li><a href="pages/education.html">education</a></li>
+                    <li><a href="pages/contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
 
-<header>
-<h1>Justine Ace Santos</h1>
-<p>Computer Programmer | GIS Professional</p>
-</header>
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">👋 hey, i'm</span>
+                    <h1>Justine Ace Santos</h1>
+                    <p class="hero-subtitle">geospatial dev · full‑stack · automation</p>
+                    <p class="hero-description">Aspiring professional with a strong foundation in computer programming, database management, geographic information systems (GIS), remote sensing, and computer systems.</p>
+                    <div class="hero-actions">
+                        <a href="pages/projects.html" class="btn primary">see work <i class="fas fa-arrow-right"></i></a>
+                        <a href="assets/resume/resume-ace-santos.pdf" class="btn outline" target="_blank">resume <i class="fas fa-file-pdf"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="Justine Ace Santos profile photo" onerror="this.src='https://via.placeholder.com/400x400/1e1e2f/ffffff?text=J.A.Santos'">
+                </div>
+            </div>
+        </section>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="pages/about.html">About</a>
-<a href="pages/projects.html">Projects</a>
-<a href="pages/gis.html">GIS</a>
-<a href="pages/contact.html">Contact</a>
-</nav>
+        <!-- quick highlights -->
+        <section class="highlights">
+            <div class="container">
+                <div class="cards-grid">
+                    <div class="card">
+                        <i class="fas fa-code"></i>
+                        <h3>languages</h3>
+                        <p>Python, Java, C++, JavaScript, HTML/CSS, Dart</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>geospatial</h3>
+                        <p>QGIS, ArcGIS Pro, FME, Google Earth Engine, PostGIS</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-database"></i>
+                        <h3>data & tools</h3>
+                        <p>PostgreSQL, SQL Server, Oracle, JIRA, Confluence, Agile</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<section>
-<h2>Featured Projects</h2>
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Justine Ace Santos</p>
+            <div class="social-links">
+                <a href="https://github.com/jassantos" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/justine-ace-santos/" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="github"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 
-<ul>
-<li>Python MongoDB CRUD App</li>
-<li>Java Battery Checker</li>
-<li>GIS Water Quality Mapping</li>
-</ul>
-
-</section>
-
-<script src="js/script.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
