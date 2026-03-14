@@ -4,7 +4,7 @@
 Hey, I'm **Ace** – a developer with deep experience in GIS, remote sensing, and full‑stack programming.  
 This portfolio reflects my technical background and current studies at Algonquin College.
 
-🔗 **Live site**: [j-ace-portfolio-git-main-jassantos-projects.vercel.app](j-ace-portfolio-git-main-jassantos-projects.vercel.app)  
+🔗 **Live site**: [https://j-ace-portfolio-git-main-jassantos-projects.vercel.app/](https://j-ace-portfolio-git-main-jassantos-projects.vercel.app/)  
 📄 **Resume**: [assets/resume/resume-ace-santos.pdf](assets/resume/resume-ace-santos.pdf)
 
 ---
